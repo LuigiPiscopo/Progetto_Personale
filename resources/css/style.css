@@ -1,0 +1,36 @@
+:root {
+    --primary: #F6F1EB;
+    --second: #403A34;
+  }
+
+
+  .primo{
+    color: var(--primary);
+  }
+
+  .second{
+    color: var(--second);
+  }
+
+  .bg-primo{
+    background-color: var(--primary);
+  }
+  .bg-second{
+    background-color: var(--second);
+  }
+
+  .logo{
+width: 70px;
+  }
+
+
+  body{
+    background-color: #403A34;
+  }
+
+.border{
+  border-radius: 20px;
+}
+
+
+  
