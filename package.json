@@ -17,6 +17,7 @@
     "dependencies": {
         "bootstrap": "^5.3.3",
         "fonts": "^0.0.2",
+        "icons": "^1.0.0",
         "mdb": "^0.1.0"
     }
 }

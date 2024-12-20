@@ -1,20 +1,7 @@
 <!-- Footer -->
-<footer class=" text-center  ">
-    <!-- Grid container -->
-    <div class="container p-4">
-  
-  
-  
-  
+<footer class=" text-center">
+    <div class="text-center p-3 bg-primo">
+        © 2024-2025 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">CasaTua.com</a>
     </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3 bg-primo" >
-      © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
+</footer>

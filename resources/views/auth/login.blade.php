@@ -13,17 +13,17 @@
                 @csrf
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control shadow" id="exampleInputPassword1">
+                    <input type="password" class="form-control shadow" id="exampleInputPassword1" name="password">
                 </div>
                 <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="remember">
                     <label class="form-check-label" for="exampleCheck1">Ricordami</label>
                 </div>
-                <button type="submit" class="btn bg-second primo">Accedi</button>
+                <button type="submit" class="btn white primo mt-2 bottone">Accedi</button>
             </form>
         </div>
         </div>

@@ -1,6 +1,7 @@
 :root {
     --primary: #F6F1EB;
-    --second: #403A34;
+    --second: #4f4338;
+    --third: #eb8b31;
   }
 
 
@@ -12,12 +13,24 @@
     color: var(--second);
   }
 
+  .third{
+    color: var(--third);
+  }
+
+  .white{background-color: white;}
+
   .bg-primo{
     background-color: var(--primary);
   }
   .bg-second{
     background-color: var(--second);
   }
+
+  .bg-third{
+    background-color: var(--third);
+  }
+
+  
 
   .logo{
 width: 70px;
@@ -28,8 +41,31 @@ width: 70px;
     background-color: #403A34;
   }
 
+  .home{
+    background: linear-gradient(140deg, #f6f1eb28, rgba(255, 255, 255, 0.315)) ,url(/public/media/living-room-fireplace-decor-3d-rendering-of-a-cozy-with-perfect-for-your-design-project-by-sedat-seven_9797473.png)  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(#f6f1eb52, rgba(255, 255, 255, 0.171)); */
+    
+  }
+
 .border{
   border-radius: 20px;
+}
+
+.bottone{
+  color: var(--third);
+  font-weight: 500;
+  border: 3px solid var(--third);
+}
+
+.bottone:hover{
+  background-color: var(--third);
+  border: 3px solid var(--third);
+  color: white;
+  
+  
 }
 
 
